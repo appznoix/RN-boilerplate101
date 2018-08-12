@@ -20,32 +20,57 @@ Abra o terminal e instale o EXPO-CLI
 
 `npm i -g expo-cli`
 
-Recursos Opcionais
+Este comando (e outros) podem demorar para terminar a execução. Tenha paciência!
 
-Instale o [Git](https://git-scm.com/) é um sistema de controle de versão distribuído.
+**Recursos Opcionais**
 
-Se estiver usando Windows, instale o [Git for Windows](https://gitforwindows.org/).
+Instale o [Git](https://git-scm.com/) que é um sistema de controle de versão distribuído. Se estiver usando Windows, instale o [Git for Windows](https://gitforwindows.org/).
 
-Instale o [Visual Studio Code](https://code.visualstudio.com/) -- Este git contém dependências de desenvolvimento voltadas para VSCode, mas você pode usar o editor de sua preferência.
+Instale o [Visual Studio Code](https://code.visualstudio.com/) -- Este git (projeto) contém dependências de desenvolvimento voltadas para VSCode, mas você pode usar o editor de sua preferência.
 
 ## Como usar
 
-Use o Expo para criar um projeto vazio.
+**Criar um projeto vazio**
 
-Abra o terminal e digite
+Use o Expo para criar um projeto vazio. Abra o terminal e digite:
 
 ```
 cd /PASTA/DOS/PROJETOS/
 expo init MEUPROJETO
 cd MEUPROJETO
-expo init
-
-cd boiler101
-npm install
 expo start
 ```
 
-Após alguns instantes você verá um QRcode ou um endereço para usar no Expo Client.
+**Nota:** Os termos em MAIÚSCULAS devem ser modificados, de acordo com os nomes que você usa em seus projetos.
+
+**Nota:** Escolha o projeto vazio quando rodar `expo init`
+
+Em alguns instantes uma janela do navegador deverá abrir, pra mostrar que o app esta rodando. Volte ao terminal e interrompa a execução (`ctrl+C` no Windows).
+
+**Baixar e inicializar o app**
+
+No site do github, clique no botão verde "Clone or download" para baixar um arquivo .zip contendo o código do app.
+
+Descompacte o .zip na pasta do projeto, substituindo os arquivos originais pelos baixados.
+
+De volta ao terminal:
+`cd /PASTA/DOS/PROJETOS/MEUPROJETO // se já não estiver na pasta do app`
+
+**Opcional** Para usar eslint, digite:
+
+`npm install -g eslint`
+
+Em seguida:
+
+```
+npm i
+expo start
+```
+Após alguns instantes você verá um QRcode e um endereço para usar no Expo Client e rodar o app.
+
+Pronto!!!
+
+A partir daí, personalize o código de acordo com as necessidades de seu aplicativo.
 
 ## Observação
-Estamos só começando. Avise se encontrar algum bug e informe se tiver a solução. 
+Estamos só começando. Avise se encontrar algum bug e informe se tiver a solução.
