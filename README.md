@@ -24,15 +24,15 @@ Este comando (e outros) podem demorar para terminar a execução. Tenha paciênc
 
 **Recursos Opcionais**
 
-Instale o [Git](https://git-scm.com/) que é um sistema de controle de versão distribuído. Se estiver usando Windows, instale o [Git for Windows](https://gitforwindows.org/).
+Instale o [Git](https://git-scm.com/), que é um sistema de controle de versão distribuído. Se estiver usando Windows, instale o [Git for Windows](https://gitforwindows.org/).
 
 Instale o [Visual Studio Code](https://code.visualstudio.com/) -- Este git (projeto) contém dependências de desenvolvimento voltadas para VSCode, mas você pode usar o editor de sua preferência.
 
 ## Como usar
 
-**Criar um projeto vazio**
+**1) Crie um projeto vazio no Expo**
 
-Use o Expo para criar um projeto vazio. Abra o terminal e digite:
+Abra o terminal e digite:
 
 ```
 cd /PASTA/DOS/PROJETOS/
@@ -43,22 +43,23 @@ expo start
 
 **Nota:** Os termos em MAIÚSCULAS devem ser modificados, de acordo com os nomes que você usa em seus projetos.
 
-**Nota:** Escolha o projeto vazio quando rodar `expo init`
+**Nota:** Escolha o projeto vazio quando rodar `expo init`. Basta dar `Enter`.
 
-Em alguns instantes uma janela do navegador deverá abrir, pra mostrar que o app esta rodando. Volte ao terminal e interrompa a execução (`ctrl+C` no Windows).
+Em alguns instantes uma janela do navegador deverá abrir, pra mostrar que o app esta rodando. Volte ao terminal e interrompa a execução (`Ctrl+C` no Windows).
 
-**Baixar e inicializar o app**
+**2) Baixe e inicialize o app**
 
 No site do github, clique no botão verde "Clone or download" para baixar um arquivo .zip contendo o código do app.
 
-Descompacte o .zip na pasta do projeto, substituindo os arquivos originais pelos baixados.
+Descompacte o .zip e copie ou mova os arquivos para a pasta do projeto, substituindo os arquivos originais pelos baixados.
 
 De volta ao terminal:
+
 `cd /PASTA/DOS/PROJETOS/MEUPROJETO // se já não estiver na pasta do app`
 
-**Opcional** Para usar eslint, digite:
+**Opcional** Se for usar eslint, digite:
 
-`npm install -g eslint`
+`npm i -g eslint`
 
 Em seguida:
 
@@ -66,11 +67,11 @@ Em seguida:
 npm i
 expo start
 ```
-Após alguns instantes você verá um QRcode e um endereço para usar no Expo Client e rodar o app.
+Após alguns instantes você verá um QRcode (Android) e um endereço para usar no Expo Client e rodar o app.
 
-Pronto!!!
+*Pronto!!!*
 
-A partir daí, personalize o código de acordo com as necessidades de seu aplicativo.
+Agora é com você. Personalize o código de acordo com as necessidades de seu aplicativo.
 
 ## Observação
 Estamos só começando. Avise se encontrar algum bug e informe se tiver a solução.
