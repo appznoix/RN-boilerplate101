@@ -46,7 +46,13 @@ expo start
 
 **Nota:** Escolha o projeto vazio quando rodar `expo init`. Basta dar `Enter`.
 
-Aguarde uma janela do navegador abrir. Este é o servidor em que o app roda durante o desenvolvimento. Feche esta aba, volte ao terminal e interrompa a execução (`Ctrl+C` no Windows).
+Aguarde abrir uma aba do navegador que mostra o servidor em que o app rodando durante o desenvolvimento. 
+
+Feche esta aba, volte ao terminal e interrompa a execução (`Ctrl+C` no Windows).
+
+**Opcional:** Para usar eslint, digite:
+
+`npm i -g eslint`
 
 **2) Baixe e inicialize o app**
 
@@ -54,22 +60,22 @@ Neste [repo](https://github.com/appznoix/RN-boilerplate101), clique no botão ve
 
 Abra o .zip e extraia os arquivos para a pasta do projeto, substituindo os arquivos originais pelos novos que vc extraiu.
 
-De volta ao terminal:
+De volta ao terminal, se já não estiver lá, entre na pasta do projeto:
 
-`cd /PASTA/DOS/PROJETOS/MEUPROJETO // se já não estiver na pasta do app`
+`cd /PASTA/DOS/PROJETOS/MEUPROJETO`
 
-**Opcional** Se for usar eslint, digite:
+Em seguida, instale os pacotes do app:
 
-`npm i -g eslint`
+`npm i`
 
-Em seguida:
+Este comando pode demorar varios minutos, a depender do sistema.
 
-```
-npm i
-expo start
-```
+**3) Acione o app através do Expo**
+Rode este comando na pasta do projeto para iniciar:
 
-Após alguns minutos - a velocidade depende do sistema - uma abra você verá um QRcode (Android) e um endereço para usar no Expo Client e rodar o app.
+`expo start`
+
+Em instantes, a janela com o servidor será aberta e você verá um QRcode (Android) e um endereço para usar no Expo Client e rodar o app.
 
 *Pronto!!!*
 
